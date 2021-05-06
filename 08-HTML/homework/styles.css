@@ -1,0 +1,42 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@media (min-width:600px){
+	body {
+		background: "https://cdn.wallpapersafari.com/13/94/6m0Oyf.jpg";
+	}
+	.verticalContainer {
+		height: 300px;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-align-items: center;
+        align-items: center;
+  		-webkit-justify-content: center;
+        justify-content: center;
+	}
+	.divClass {
+		max-width:500px;
+		margin: 0 auto;
+		padding:10px;
+		border:8px solid sienna;
+		background:linen;
+	}
+	.thirdDiv {
+		height:600px;
+		max-width:500px;
+		background:linen;
+		padding:10px;
+		border:10px solid sienna;
+		margin: 0 auto;
+  	}
+  	img {
+		max-width:200px;
+		margin: 0 auto;
+	}
+	#spanId {
+		font-size:18px;
+		margin:50px;
+	}
+}
