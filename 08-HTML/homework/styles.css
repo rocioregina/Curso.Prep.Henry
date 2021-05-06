@@ -5,7 +5,7 @@
 }
 @media (min-width:600px){
 	body {
-		background: "https://cdn.wallpapersafari.com/13/94/6m0Oyf.jpg";
+		background-image:url(https://cdn.hipwallpaper.com/i/36/32/MxduNc.jpg);
 	}
 	.verticalContainer {
 		height: 300px;
@@ -23,8 +23,8 @@
 		border:8px solid sienna;
 		background:linen;
 	}
-	.thirdDiv {
-		height:600px;
+	#thirdDiv {
+		max-height:500px;
 		max-width:500px;
 		background:linen;
 		padding:10px;

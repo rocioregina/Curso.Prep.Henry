@@ -1,0 +1,52 @@
+* {
+	font-family: sans-serif;
+	margin: 20px;
+}
+body {
+	background:url(https://www.publicdomainpictures.net/pictures/60000/nahled/quatrefoil-pattern-background-teal.jpg);
+}
+#nombreContainer {
+	position: absolute;
+	background: gray;
+	top: -10px;
+	left: 60px;
+	border-radius: 8px;
+}
+#banner {
+	display: -webkit-flex;
+	display: flex;
+	background:cadetblue;
+	justify-content: space-around;
+	align-items: center;
+	border:4px dotted white;
+}
+.container {
+	display:static;
+}
+.classDiv {
+	position: relative;
+	border: 4px double gray;
+	background:linen;
+}
+a {
+	color: gray;
+}
+p {
+	font-style:italic;
+	font-weight: bold;
+	max-width: 600px;
+	color: white;
+}
+h2 {
+	color:cadetblue;
+}
+h4 {
+	margin: 30px;
+}
+#nombre {
+	color:white;
+}
+img {
+	border-radius: 8px;
+	width: 180px;
+}
